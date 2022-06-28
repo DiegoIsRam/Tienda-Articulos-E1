@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="layout/plantilla::head">
+</head>
+<style th:replace="layout/plantilla::style"></style>
+<body>
+<head th:replace="layout/plantilla::header"></head>
+
+
+<div th:if="${calzados != null and !calzados.empty}">
+  <table class="content-table">
+  <tr>
+      <th>ID</th>
+      <th>Id Articulo</th>
+      <th>Tipo</th>
+      <th>Usabilidad</th>
+      <th>Numero</th>
+      <th>Color</th>
+    </tr>
+    <tr th:each="calzado: ${calzados}">
+      <td th:text="${calzado.id}">Mostrar Id</td>
+      <td th:text="${calzado.idArticulo}">Mostrar Id Articulo</td>
+      <td th:text="${calzado.tipo}">Mostrar Tipo</td>
+      <td th:text="${calzado.usabilidad}">Mostrar Usabilidad</td>
+      <td th:text="${calzado.numero}">Mostrar Numero</td>
+      <td th:text="${calzado.color}">Mostrar Color</td>
+
+    </tr>
+
+  </table>
+</div>
+<div th:if="${calzados == null or calzados.empty}">
+  <p>La lista de artículos está vacía</p>
+</div>
+<footer th:replace="layout/plantilla::footer"></footer>
+</body>
+</html>

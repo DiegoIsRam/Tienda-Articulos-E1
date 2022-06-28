@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="layout/plantilla::head">
+</head>
+<style th:replace="layout/plantilla::style"></style>
+<body>
+<head th:replace="layout/plantilla::header"></head>
+
+
+<div th:if="${facturas != null and !facturas.empty}">
+    <table class="content-table">
+
+        <tr>
+            <th>ID</th>
+            <th>ID Cliente</th>
+            <th>ID Articulo</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </tr>
+        <tr th:each="factura: ${facturas}">
+            <td th:text="${factura.id}">Mostrar Id</td>
+            <td th:text="${factura.idCliente}">Mostrar Id Cliente</td>
+            <td th:text="${factura.idArticulo}">Mostrar Id Articulo</td>
+            <td th:text="${factura.precio}">Mostrar Precio</td>
+            <td th:text="${factura.cantidad}">Mostrar Cantidad</td>
+
+
+        </tr>
+
+    </table>
+</div>
+<div th:if="${facturas == null or facturas.empty}">
+    <p>La lista de artículos está vacía</p>
+</div>
+<footer th:replace="layout/plantilla::footer"></footer>
+</body>
+</html>

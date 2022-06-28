@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="layout/plantilla::head">
+</head>
+<style th:replace="layout/plantilla::style"></style>
+<body>
+<head th:replace="layout/plantilla::header"></head>
+
+
+<div th:if="${accesorios != null and !accesorios.empty}">
+    <table class="content-table">
+        <tr>
+            <th>ID</th>
+            <th>Id Articulo</th>
+            <th>Tipo</th>
+            <th>Color</th>
+        </tr>
+        <tr th:each="accesorio: ${accesorios}">
+            <td th:text="${accesorio.id}">Mostrar Id</td>
+            <td th:text="${accesorio.idArticulo}">Mostrar Id Articulo</td>
+            <td th:text="${accesorio.tipo}">Mostrar Tipo</td>
+            <td th:text="${accesorio.color}">Mostrar Color</td>
+
+
+        </tr>
+
+    </table>
+</div>
+<div th:if="${accesorios == null or accesorios.empty}">
+    <p>La lista de accesorios está vacía</p>
+</div>
+<footer th:replace="layout/plantilla::footer"></footer>
+
+</body>
+</html>

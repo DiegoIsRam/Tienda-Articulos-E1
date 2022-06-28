@@ -1,0 +1,345 @@
+---------
+Query: select * from articulos
+DateTime: 2022-06-23T13:38:40.809117500
+---------
+Query: select * from articulos
+DateTime: 2022-06-23T13:38:43.263355800
+---------
+Query: select * from articulos
+DateTime: 2022-06-23T13:38:44.628964400
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T13:43:50.025448900
+---------
+SELECT * FROM db_indumentaria.clientes;
+DateTime: 2022-06-23T13:43:58.237670100
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-23T13:44:06.301804500
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-23T13:44:10.640511200
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-23T13:44:16.009968300
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-23T13:44:21.511512100
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-23T13:44:30.041020100
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T13:49:39.780115800
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T13:51:03.299196100
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T13:51:04.043693500
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T13:51:04.472537600
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T13:51:04.879988500
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T13:58:44.400240200
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:02:06.904055800
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:05:03.870613300
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:05:04.855824800
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:05:05.337000900
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:05:05.555153
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:05:22.262714500
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:09:57.425778900
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:10:00.884996100
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:10:02.796596700
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:10:03.808268300
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:10:04.561939200
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:10:05.205299300
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:10:32.226654600
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-23T14:11:10.248007800
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:14:33.540295
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-23T14:15:09.000526700
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:17:02.244182200
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:25:11.137584300
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:28:12.065470900
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-23T14:28:18.463228
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-23T14:30:17.437173200
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-23T14:30:28.078758400
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-23T14:30:39.515819900
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-23T14:30:51.225551600
+---------
+SELECT * FROM db_indumentaria.clientes;
+DateTime: 2022-06-23T14:30:57.532411500
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-23T14:31:04.859896
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-23T14:31:08.901190200
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-23T14:31:51.109767200
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-23T14:32:05.281633200
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-23T14:32:06.015230100
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-23T14:32:06.223341400
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-23T14:32:09.621581
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-23T14:32:27.947136300
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:32:40.792434
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-23T14:32:55.015726
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-23T14:38:33.718490200
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-23T14:39:14.155962900
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-23T14:39:57.276229600
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:40:18.545087200
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:41:03.642802900
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T14:42:13.771164700
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-23T14:42:37.302847600
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T17:45:25.089415800
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T17:46:37.140002600
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-23T17:48:07.557035200
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-23T17:48:41.413184500
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-23T17:51:52.376474500
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-23T17:52:00.264509100
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-23T17:52:11.987459200
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-23T17:52:18.716502900
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-23T17:52:24.233862100
+---------
+SELECT * FROM db_indumentaria.clientes;
+DateTime: 2022-06-23T17:52:29.068087200
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-23T17:52:38.274266200
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-23T17:52:43.644282100
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-24T12:24:20.783779200
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-24T12:25:22.137380500
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-24T12:31:48.227459500
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T12:36:55.511822800
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-24T12:37:01.942836600
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-24T12:37:07.617008600
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-24T12:37:16.706050200
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-24T12:37:22.010160300
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-24T12:37:44.210706200
+---------
+SELECT * FROM db_indumentaria.clientes;
+DateTime: 2022-06-24T12:37:48.960503400
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T12:38:30.236286900
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-24T12:38:34.447131900
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-24T12:38:36.452834200
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-24T12:38:54.513713500
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-24T12:39:10.239580300
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-24T12:39:12.716771500
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-24T12:39:15.020078200
+---------
+SELECT * FROM db_indumentaria.clientes;
+DateTime: 2022-06-24T12:39:19.882048
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T13:05:55.362609300
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-24T13:06:10.494517600
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T13:25:01.445233100
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T13:37:22.173588500
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T13:40:49.408414600
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-24T13:40:52.530053300
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T13:44:17.433541300
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T14:07:39.322041700
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T14:14:38.083444800
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-24T14:14:40.451047100
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-24T14:14:43.897067200
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-24T14:14:48.096684600
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T14:16:31.541481900
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T14:16:33.613175300
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-24T14:16:44.028594500
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T14:17:10.255297900
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-24T14:17:13.641406900
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-24T14:17:17.809853100
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-24T14:17:19.794465
+---------
+SELECT * FROM db_indumentaria.facturas;
+DateTime: 2022-06-24T14:17:27.662994700
+---------
+SELECT * FROM db_indumentaria.facturas_detalles;
+DateTime: 2022-06-24T14:17:33.235270
+---------
+SELECT * FROM db_indumentaria.clientes;
+DateTime: 2022-06-24T14:17:36.467063500
+---------
+SELECT * FROM db_indumentaria.clientes;
+DateTime: 2022-06-24T14:17:38.702817200
+---------
+Query: SELECT * FROM db_indumentaria.articulos;
+DateTime: 2022-06-24T14:20:41.494696
+---------
+SELECT * FROM db_indumentaria.articulos_accesorios_detalles;
+DateTime: 2022-06-24T14:20:43.303935400
+---------
+SELECT * FROM db_indumentaria.articulos_calzados_detalles;
+DateTime: 2022-06-24T14:20:45.700414900
+---------
+Query: SELECT * FROM db_indumentaria.articulos_ropa_detalles;
+DateTime: 2022-06-24T14:20:47.578077200

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="layout/plantilla::head">
+</head>
+<style th:replace="layout/plantilla::style"></style>
+<body>
+<head th:replace="layout/plantilla::header"></head>
+<h3>Se está utilizando una query nativa</h3>
+
+<div th:if="${ropasid != null and !ropasid.empty}">
+    <table class="content-table">
+
+        <tr>
+            <th>Id</th>
+
+        </tr>
+        <tr th:each="ropaid: ${ropasid}">
+            <td th:text="${ropaid}">Mostrar Id</td>
+
+        </tr>
+
+    </table>
+</div>
+<div th:if="${ropasid == null or ropasid.empty}">
+    <p>La lista de ids está vacía</p>
+</div>
+<footer th:replace="layout/plantilla::footer"></footer>
+</body>
+</html>

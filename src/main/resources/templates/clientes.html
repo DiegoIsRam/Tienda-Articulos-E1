@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="layout/plantilla::head">
+</head>
+<style th:replace="layout/plantilla::style"></style>
+<body>
+<head th:replace="layout/plantilla::header"></head>
+
+
+<div th:if="${clientes != null and !clientes.empty}">
+    <table class="content-table">
+    <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Direccion</th>
+            <th>Email</th>
+            <th>Telefono</th>
+            <th>Tipo Documento</th>
+            <th>Numero Documento</th>
+
+        </tr>
+        <tr th:each="cliente: ${clientes}">
+            <td th:text="${cliente.id}">Mostrar Id</td>
+            <td th:text="${cliente.nombre}">Mostrar nombre</td>
+            <td th:text="${cliente.apellido}">Mostrar Apellido</td>
+            <td th:text="${cliente.edad}">Mostrar Edad</td>
+            <td th:text="${cliente.direccion}">Mostrar Direccion</td>
+            <td th:text="${cliente.email}">Mostrar Email</td>
+            <td th:text="${cliente.telefono}">Mostrar Telefono</td>
+            <td th:text="${cliente.tipoDocumento}">Mostrar Tipo Documento</td>
+            <td th:text="${cliente.numeroDocumento}">Mostrar Numero Documento</td>
+
+
+        </tr>
+
+    </table>
+</div>
+<div th:if="${clientes == null or clientes.empty}">
+    <p>La lista de clientes está vacía</p>
+</div>
+<footer th:replace="layout/plantilla::footer"></footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="layout/plantilla::head">
+</head>
+<style th:replace="layout/plantilla::style"></style>
+<body>
+<head th:replace="layout/plantilla::header"></head>
+
+
+<div th:if="${facturasDetalles != null and !facturasDetalles.empty}">
+    <table class="content-table">
+
+        <tr>
+            <th>ID</th>
+            <th>ID Factura</th>
+            <th>Tipo</th>
+            <th>Numero</th>
+            <th>Fecha de Emision</th>
+            <th>Medio de Pago</th>
+            <th>Descripcion</th>
+        </tr>
+        <tr th:each="facturaDetalles: ${facturasDetalles}">
+            <td th:text="${facturaDetalles.id}">Mostrar Id</td>
+            <td th:text="${facturaDetalles.idFactura}">Mostrar Id Factura</td>
+            <td th:text="${facturaDetalles.tipo}">Mostrar Tipo</td>
+            <td th:text="${facturaDetalles.numero}">Mostrar Numero</td>
+            <td th:text="${facturaDetalles.fechaEmision}">Mostrar Fecha de Emision</td>
+            <td th:text="${facturaDetalles.medioDePago}">Mostrar Medio de Pago</td>
+            <td th:text="${facturaDetalles.descripcion}">Mostrar Descripcion</td>
+
+
+
+        </tr>
+
+    </table>
+</div>
+<div th:if="${facturasDetalles == null or facturasDetalles.empty}">
+    <p>La lista de artículos está vacía</p>
+</div>
+<footer th:replace="layout/plantilla::footer"></footer>
+</body>
+</html>
